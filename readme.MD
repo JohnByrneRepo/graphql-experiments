@@ -28,12 +28,10 @@ Helpful utilities for parsing GraphQL queries. Includes:
 
 graphql-tag uses the reference graphql library under the hood as a peer dependency so in addition to installing this module, you'll also have to install graphql-js.
 
-
 GraphQL Yoga
 ------------
 
 🧘 Fully-featured GraphQL Server with focus on easy setup, performance & great developer experience
-
 
 Introductory Experiments
 ------------------------
@@ -60,6 +58,3 @@ To-do:
 
 *02-3-graphql-scalars* - Examples of how scalar types are used in GraphQL, including 
 `GraphQLFloat`, `GraphQLString`, `GraphQLBooleanand` and `GraphQLID`
-
-
-
