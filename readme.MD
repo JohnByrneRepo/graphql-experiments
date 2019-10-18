@@ -1,6 +1,6 @@
-
-
-![alt text](https://graphql.org/img/logo.svg)
+<p align="left">
+<img src="https://graphql.org/img/logo.svg" width="150" height="150" />
+</p>
 
 # GraphQL experiments
 
@@ -49,15 +49,15 @@ GraphQL Yoga
 
 # Experiments
 
-*01-graph-ql* - The example Query taken from the JavaScript section of the GraphQL website as listed above, using `graphql-js`
+**01-graph-ql** - The example Query taken from the JavaScript section of the GraphQL website as listed above, using `graphql-js`
 
-*02-graphql-playground* - An example of using `graphql-playground` to test a query in the browser, including the autocompletion and syntax highlighting that it provides
+**02-graphql-playground** - An example of using `graphql-playground` to test a query in the browser, including the autocompletion and syntax highlighting that it provides
 
-*03-graphql-express* - A GraphQL server using `express`, and `express-graphql`
+**03-graphql-express** - A GraphQL server using `express`, and `express-graphql`
 
-*04-graphql-tag* - An example of using `graphql-tag` using the gql tag
+**04-graphql-tag** - An example of using `graphql-tag` using the gql tag
 
-*05-graph-ql-yoga* - The example Query taken from the `graphql-yoga` github readme, to show how a basic server can be constructed using this add-on library
+**05-graph-ql-yoga** - The example Query taken from the `graphql-yoga` github readme, to show how a basic server can be constructed using this add-on library
 
 
 
@@ -68,14 +68,3 @@ To run the experiments, ensure that `node` is installed then in the terminal/com
 ```bash
 node 01-graph-ql.js // runs the first example
 ```
-
-
-
-To-do:
-
-*06-graphql-schemas* - An analysis of what is a schema in GraphQL terminology and an example of validating a schema using GraphQL's validation methods
-
-*07-graphql-type-definitions* - An analysis of GraphQl types, including `scalar`, `object`, `interface`, `union`, `enum`, `input object`, `list` and `non-null` types 
-
-*08-graphql-scalars* - Examples of how scalar types are used in GraphQL, including 
-`GraphQLFloat`, `GraphQLString`, `GraphQLBooleanand` and `GraphQLID`
