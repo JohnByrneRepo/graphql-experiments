@@ -2,7 +2,8 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const { graphqlExpress } = require('apollo-server-express')
 const { makeExecutableSchema } = require('graphql-tools')
-const expressPlayground = require('../../src/index').default
+const expressPlayground = require('graphql-playground-middleware-express')
+  .default
 
 const schema = makeExecutableSchema({
   typeDefs: `
@@ -19,7 +20,7 @@ const schema = makeExecutableSchema({
     },
   },
 })
-const PORT = 4000
+const PORT = 5000
 
 const app = express()
 

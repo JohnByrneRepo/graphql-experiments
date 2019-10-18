@@ -1,4 +1,4 @@
-import gql from 'graphql-tag';
+var { gql } = require('graphql-tag');
 
 const query = gql`
   {
