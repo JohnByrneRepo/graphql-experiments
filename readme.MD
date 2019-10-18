@@ -1,13 +1,14 @@
 GraphQL experiments
 -------------------
 
-Experimenting with fullstack GraphQL, including `graphql-js`, `graphql-tag` and `graphql-yoga`.
+Experimenting with fullstack GraphQL, including `graphql-js`, `graphql-playground`, `graphql-tag` and `graphql-yoga`.
 
 See the following useful links for reference
 
 https://graphql.org/code/#javascript
 https://github.com/graphql/graphql-js/tree/master/docs
 https://github.com/graphql/graphql-js/
+https://github.com/prisma-labs/graphql-playground
 https://github.com/apollographql/graphql-tag#readme
 https://github.com/prisma-labs/graphql-yoga
 
@@ -33,28 +34,24 @@ GraphQL Yoga
 
 🧘 Fully-featured GraphQL Server with focus on easy setup, performance & great developer experience
 
-Introductory Experiments
-------------------------
+Experiments
+-----------
 
-01-introductory-experiments
-02-graphql-api
-03-graphql-tutorials
+*01-graph-ql* - The example Query taken from the JavaScript section of the GraphQL website, and some other more advanced examples
 
-See the experiments folder for the following examples.
+*02-graphql-playground* - An example of using GraphQL playground to test a query in the browser, including the autocompletion and syntax highlighting that it provides
 
-*01-1-graph-ql* - The example Query taken from the JavaScript section of the GraphQL website as listed above.
+*03-graphql-express* - An example of building a schema and resolvers in GraphQL with an Express server
 
-*01-2-graphql-playground* - An example of using GraphQL playground to test a query in the browser, including the autocompletion and syntax highlighting that it provides
+*04-graphql-tag* - An example of using the `gql` tag
 
-*01-3-graphql-tags* - An example of using the `gql` tag
-
-*01-4-graph-ql-yoga* - The example Query taken from the `graphql-yoga` github readme, to show how a basic server can be constructed using this add-on library
+*05-graph-ql-yoga* - The example Query taken from the `graphql-yoga` github readme, to show how a basic server can be constructed using this add-on library
 
 To-do:
 
-*02-1-graphql-schemas* - An analysis of what is a schema in GraphQL terminology and an example of validating a schema using GraphQL's validation methods
+*05-graphql-schemas* - An analysis of what is a schema in GraphQL terminology and an example of validating a schema using GraphQL's validation methods
 
-*02-2-graphql-type-definitions* - An analysis of GraphQl types, including scalar, object, interface, union, enum, input object, list and non-null types 
+*06-graphql-type-definitions* - An analysis of GraphQl types, including `scalar`, `object`, `interface`, `union`, `enum`, `input object`, `list` and `non-null` types 
 
-*02-3-graphql-scalars* - Examples of how scalar types are used in GraphQL, including 
-`GraphQLFloat`, `GraphQLString`, `GraphQLBooleanand` and `GraphQLID`
+*07-graphql-scalars* - Examples of how scalar types are used in GraphQL, including 
+`GraphQLFloat`, `GraphQLString`, `GraphQLBoolean` and `GraphQLID`
